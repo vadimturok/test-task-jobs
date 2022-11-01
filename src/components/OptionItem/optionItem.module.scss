@@ -1,0 +1,17 @@
+.option {
+  width: 222px;
+  height: 49px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.457143px;
+  border-radius: 8px;
+  line-height: 49px;
+
+  @media (max-width: 500px) {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+}

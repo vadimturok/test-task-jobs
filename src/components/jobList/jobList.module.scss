@@ -1,0 +1,14 @@
+.jobList {
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 40px;
+    @media (max-width: 450px) {
+      gap: 10px;
+    }
+  }
+  .pagination {
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,15 @@
+.jobDetailsActions {
+  display: flex;
+  gap: 20px;
+
+  .jobActions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: #3a4562;
+  }
+}

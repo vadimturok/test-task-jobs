@@ -1,0 +1,119 @@
+.jobItem {
+  width: 90%;
+  height: 164px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 24px 16px;
+
+  @media (max-width: 450px) {
+    background-color: #eff0f5;
+    padding: 10px;
+  }
+
+  .jobInfo {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 450px) {
+      flex-direction: column-reverse;
+    }
+
+    .jobWrapper {
+      display: flex;
+      gap: 26px;
+      @media (max-width: 450px) {
+        gap: 16px;
+      }
+      .image {
+        border-radius: 50%;
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+      }
+      .jobDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+        .jobTitle {
+          color: #3a4562;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: -0.625px;
+
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+          @media (max-width: 450px) {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.5625px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+          @media (max-width: 770px) {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+          @media (max-width: 670px) {
+            font-size: 16px;
+          }
+          @media (max-width: 570px) {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        }
+        .jobAddress {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.23619px;
+          color: #878d9d;
+        }
+        .city {
+          display: flex;
+          align-items: center;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.23619px;
+          color: #878d;
+        }
+      }
+    }
+
+    .additionalInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: space-between;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0.23619px;
+      color: #878d9d;
+
+      @media (max-width: 570px) {
+        font-size: 13px;
+      }
+
+      .saveIcon {
+        @media (max-width: 450px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
