@@ -2,7 +2,7 @@
 
 > Searching jobs application provides information about posted jobs.
 > Live demo
-> [_here_](https://candid-granita-4d7759.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
+> [_here_](https://test-task-jobs-whh5.vercel.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
