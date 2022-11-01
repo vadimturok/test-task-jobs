@@ -9,13 +9,13 @@ import {
 } from "../../utils";
 import styles from "../../styles/Job.module.scss";
 import moment from "moment";
-import OptionItem from "../../components/OptionItem/OptionItem";
+import OptionItem from "../../components/optionItem/OptionItem";
 import Image from "next/image";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../../components/loader/Loader";
 import img from "../../assets/img.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import JobActions from "../../components/JobActions/JobActions";
+import JobActions from "../../components/jobActions/JobActions";
 import Hr from "../../components/Hr/Hr";
 
 const Job = () => {

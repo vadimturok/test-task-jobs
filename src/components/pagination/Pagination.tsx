@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { usePagination, DOTS } from "./usePagination";
-import classnames from "classnames";
 import styles from "./pagination.module.scss";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
