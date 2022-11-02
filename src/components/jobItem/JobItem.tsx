@@ -30,10 +30,10 @@ const JobItem: FC<{ job: JobType }> = ({ job }) => {
             >
               {job.title}
             </div>
-            <div className={styles.jobAddress}>{job.address}</div>
+            <div className={styles.jobAddress}>{job.name}</div>
             <div className={styles.city}>
               <LocationOnIcon />
-              <span>Vienna, Austria</span>
+              <span>{job.address}</span>
             </div>
           </div>
         </div>

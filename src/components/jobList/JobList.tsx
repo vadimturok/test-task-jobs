@@ -6,7 +6,7 @@ import Pagination from "../pagination/Pagination";
 
 let PageSize = 5;
 
-const JobList: FC<{ jobs: JobType[] }> = ({ jobs }) => {
+const JobList: FC<{ jobs: JobType[] }> = ({ jobs = [] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const currentData = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
